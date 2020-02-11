@@ -7,10 +7,9 @@ The notebook is commented and contains already generated images.
 
 
 ## Motivation
-In gans Non saturating discriminators can provide meaningful gradients to the discriminator
-Non saturating discriminators can provide meaningful gradients and let us continue the adversarial training longer without having the discriminator beat the generator
-We will get different gradients from each discriminator
-Each gradient will be in a different lower dimensional space depending on our initial filter which will help the training avoid mode collapse
+In GANs, non saturating discriminators can provide meaningful gradients to the generator.
+Meaningful gradients will let us continue the adversarial training longer without having the discriminator beat the generator
+We will get different gradients from each discriminator, each gradient will be in a different lower dimensional space depending on our initial filter which will help the training avoid mode collapse.
 
 ## References
 <a id="1">[1]</a> 
